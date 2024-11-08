@@ -31,6 +31,6 @@ Project Organization
     ├── reports            <- Contains the reports during the development process as well as the final report.
     │  
     ├── streamlit          <- Contains the Streamlit-App of this project.
-    │  
+ 
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
