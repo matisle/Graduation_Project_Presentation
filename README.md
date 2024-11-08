@@ -22,7 +22,7 @@ Monitoring customer feedback and regularly assessing customer satisfaction are k
 With our study we could show the potential of machine learning in tailoring personalized customer interaction, leveraging the large data resources of customer comments and supplier feedback. 
 
 
-For a quick overview of our project, please refer to the management summary in our final report. (reports folder.)
+For a quick overview of our project, please refer to the management summary in our final report in the reports folder.
 
 Project Organization
 ------------
