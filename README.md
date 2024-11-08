@@ -2,15 +2,15 @@ Customer Satisfaction of the German Energy Supply Chain:
 Predicting Star Ratings and Company Responses on Trustpilot
 ==============================
 
-This is the graduation project  of Stefanie Arlt and Matthias Isele for Data Scientist formation in April 2024.
-Our subject is energy suppliers is energy suppliers in Germany on the Trustpilot website, from which we scraped content in September 2023 in German language in 2 data sets:
+This is the graduation project  of Matthias Isele and  Stefanie Arlt for Data Scientist formation in April 2024.
+Our subject is energy suppliers in Germany on the Trustpilot website, from which we scraped content in September 2023 in German language in 2 data sets:
 * Overall ranking list of 37 suppliers including rating score, number of votes and supported energy supply categories @Stefanie
 * Customer reviews, rating and company answers dating back to 2011 with more than 3000 pages of content @Matthias
 
 In our study, we scraped the data, cleaned it and created 2 data sets, which were both explored including visualizations of key facts and stories.
 The customer review file was the basis for a machine learning exercise: 
 * Predicting the star rating based on customer comments  @Stefanie
-* Predicting the length of company answers to customer postings @Matthias
+* Predicting the length of company answers to customer postings, or company answers, if possible. @Matthias
 
 Challenges for us were the imbalanced data set and also the large amount of data itself.
 However, starting with engineered features like number of words we could improve model performance with sentiment analysis.
@@ -24,11 +24,11 @@ For a quick overview of our project, please refer to the management summary in o
 
 Project Organization
 ------------
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for data file),
+    ├── notebooks          <- Contains all the notebooks used in the development process as well as modelling.
     │
-    ├── reports            <- The reports that you'll make during this project as PDF
+    ├── reports            <- Contains the reports during the development process as well as the final report.
     │  
-    ├── streamlit         <- Streamlit app files
+    ├── streamlit          <- Contains the Streamlit-App of this project.
     │  
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
